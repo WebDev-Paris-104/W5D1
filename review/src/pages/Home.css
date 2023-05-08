@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "my-awesome-font";
+	src: url("./Bhineka.ttf") format("truetype");
+}
+
+.Home {
+	background-color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	& li {
+		list-style: none;
+	}
+	& a {
+		color: whitesmoke;
+		text-decoration: none;
+	}
+
+	& h1 {
+		font-family: "my-awesome-font";
+		font-size: 4rem;
+		font-weight: 200;
+		text-shadow: 0 0 8px pink;
+	}
+}
